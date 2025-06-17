@@ -1,4 +1,4 @@
-![A6935D52-395B-4E03-BD99-A5EE76C10876](https://github.com/user-attachments/assets/d04b2534-7c1a-4ee2-bf50-1548689395f8)Luxury Printing Services
+Luxury Printing Services
 
 A modern, elegant web application for luxury printing services built with the MERN stack.
 Weelcome page 
