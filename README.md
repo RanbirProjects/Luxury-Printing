@@ -1,7 +1,8 @@
 Luxury Printing Services
 
 A modern, elegant web application for luxury printing services built with the MERN stack.
-Weelcome page 
+
+Welcome page 
 ![E064BB83-EBB5-49C6-9236-2D206958D502](https://github.com/user-attachments/assets/f33e40a3-183e-4eee-b45c-112f6255449c)
 Products
 ![EE005BF9-E01E-4D73-89EC-A07E36193FBB](https://github.com/user-attachments/assets/adbea20b-70b1-474c-a74c-42e3999171c9)
