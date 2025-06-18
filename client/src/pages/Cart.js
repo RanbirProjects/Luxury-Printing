@@ -3,8 +3,6 @@ import { Container, Typography, Grid } from '@mui/material';
 import { useSelector } from 'react-redux';
 
 const Cart = () => {
-  const { items, totalAmount } = useSelector((state) => state.cart);
-
   return (
     <Container maxWidth="lg" sx={{ py: 8 }}>
       <Typography variant="h3" component="h1" gutterBottom>

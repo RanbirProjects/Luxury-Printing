@@ -1,9 +1,9 @@
 import React from 'react';
-import { Container, Typography, Grid, Button } from '@mui/material';
+import { Container, Typography, Grid } from '@mui/material';
 import { useParams } from 'react-router-dom';
 
 const ProductDetail = () => {
-  const { id } = useParams();
+  useParams();
 
   return (
     <Container maxWidth="lg" sx={{ py: 8 }}>
