@@ -1,96 +1,232 @@
-Luxury Printing Services
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=35&duration=3000&color=F7B500&center=true&vCenter=true&width=900&lines=Luxury+Printing+Services;Premium+MERN+Stack+Ecommerce+Website;Modern+UI+%7C+Authentication+%7C+Shopping+Cart" />
+</p>
 
-A modern, elegant web application for luxury printing services built with the MERN stack.
+<h1 align="center">🖨️ Luxury Printing Services</h1>
 
-Welcome page 
-![E064BB83-EBB5-49C6-9236-2D206958D502](https://github.com/user-attachments/assets/f33e40a3-183e-4eee-b45c-112f6255449c)
-Products
-![EE005BF9-E01E-4D73-89EC-A07E36193FBB](https://github.com/user-attachments/assets/adbea20b-70b1-474c-a74c-42e3999171c9)
-Asked questions
-![F8EB38E0-6711-4CA4-A8EB-2BB5B0497C56](https://github.com/user-attachments/assets/3ab16d41-690d-4ed4-835a-38a130fe4783)
-Comtact us page
-![B6CB599A-81C8-4DD4-91B7-430A2ABB8571](https://github.com/user-attachments/assets/0fafbb46-72da-4c19-b9e7-2054ff98471e)
-Shopping page
-![6108F6F0-96D1-4D07-AF84-B2592836CC6E](https://github.com/user-attachments/assets/6ed0f663-0af1-4686-8a1e-9bf1efef4df9)
-Login page
-![A6935D52-395B-4E03-BD99-A5EE76C10876](https://github.com/user-attachments/assets/8ad6a105-c9fb-4f58-944a-f1391a45193a)
+<p align="center">
+A premium luxury printing services web application built using the MERN stack with modern UI, authentication, and shopping cart functionality.
+</p>
 
+<p align="center">
 
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Redux](https://img.shields.io/badge/Redux-Toolkit-purple?logo=redux)
+![Node](https://img.shields.io/badge/Node.js-Backend-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-Server-black?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
+</p>
 
+---
 
+# 🌐 Live Application Screens
 
+## 🏠 Welcome Page
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f33e40a3-183e-4eee-b45c-112f6255449c" width="800"/>
+</p>
 
-Features
+---
 
-- Beautiful, responsive design with luxury-themed UI
-- Product catalog with high-quality images
-- Shopping cart functionality
-- User authentication
-- Contact form
-- FAQ section
+## 🛍 Products Page
 
- Tech Stack
+<p align="center">
+<img src="https://github.com/user-attachments/assets/adbea20b-70b1-474c-a74c-42e3999171c9" width="800"/>
+</p>
 
-- Frontend: React.js with Material-UI
-- State Management: Redux Toolkit
-- Backend: Node.js with Express
-- Database: MongoDB
-- Styling: Styled Components
+---
 
-Setup Instructions
+## ❓ FAQ Section
 
-1. Clone the repository:
-```bash
-git clone https://github.com/RanbirProjects/Luxury-Printing.git
-```
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3ab16d41-690d-4ed4-835a-38a130fe4783" width="800"/>
+</p>
 
-2. Install dependencies:
-```bash
-cd Luxury-Printing
-npm install
-cd client
-npm install
-```
+---
 
-3. Start the development server:
-```bash
-# Start backend server (from root directory)
-npm start
+## 📞 Contact Page
 
-# Start frontend server (from client directory)
-cd client
-npm start
-```
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0fafbb46-72da-4c19-b9e7-2054ff98471e" width="800"/>
+</p>
 
-4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-Project Structure
+## 🛒 Shopping Page
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6ed0f663-0af1-4686-8a1e-9bf1efef4df9" width="800"/>
+</p>
+
+---
+
+## 🔐 Login Page
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/8ad6a105-c9fb-4f58-944a-f1391a45193a" width="800"/>
+</p>
+
+---
+
+# ✨ Key Features
+
+🚀 Elegant luxury-themed UI  
+📱 Fully responsive design  
+🛍 Product catalog with premium visuals  
+🛒 Shopping cart functionality  
+🔐 Secure authentication system  
+📨 Contact form integration  
+❓ FAQ section for customer support  
+⚡ Fast and scalable MERN architecture  
+
+---
+
+# 🛠 Technology Stack
+
+### Frontend
+
+- React.js  
+- Material UI  
+- Redux Toolkit  
+- Styled Components  
+
+### Backend
+
+- Node.js  
+- Express.js  
+- MongoDB  
+- REST APIs  
+
+---
+
+# 📂 Project Architecture
 
 ```
 luxury-printing/
-├── client/                 # Frontend React application
-│   ├── public/            # Static files
-│   └── src/               # React source files
-│       ├── components/    # Reusable components
-│       ├── pages/         # Page components
-│       ├── redux/         # Redux store and slices
-│       └── styles/        # Shared styles
-└── server/                # Backend Express application
-    ├── controllers/       # Route controllers
-    ├── models/           # Database models
-    └── routes/           # API routes
+│
+├── client/
+│   ├── public/
+│   │
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── redux/
+│       ├── services/
+│       ├── styles/
+│       ├── App.js
+│       └── index.js
+│
+├── server/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+├── README.md
+└── package.json
 ```
 
-Contributing
+---
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+# ⚙ Installation
 
-## License
+### Clone the Repository
 
-This project is licensed under the MIT License. 
+```bash
+git clone https://github.com/RanbirProjects/Luxury-Printing.git
+cd Luxury-Printing
+```
+
+---
+
+### Install Dependencies
+
+```
+npm install
+cd client
+npm install
+```
+
+---
+
+# ▶ Running the Application
+
+### Start Backend
+
+```
+npm start
+```
+
+### Start Frontend
+
+```
+cd client
+npm start
+```
+
+Open:
+
+```
+http://localhost:3000
+```
+
+---
+
+# 🚀 Deployment
+
+### Frontend
+
+You can deploy on:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+### Backend
+
+Deploy using:
+
+- Render
+- Railway
+- AWS EC2
+- DigitalOcean
+
+---
+
+# 📊 GitHub Project Stats
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=RanbirProjects&show_icons=true&theme=tokyonight"/>
+
+</p>
+
+---
+
+# 👨‍💻 Author
+
+**Ranbir Singh**
+
+GitHub  
+https://github.com/RanbirProjects  
+
+LinkedIn  
+https://www.linkedin.com/in/ranbirsingh1001/  
+
+LeetCode  
+https://leetcode.com/u/ranbirsingh7/
+
+---
+
+# ⭐ Support
+
+If you like this project, please **star ⭐ the repository**.
+
+---
+
+<p align="center">
+Built with ❤️ using the MERN Stack
+</p>
